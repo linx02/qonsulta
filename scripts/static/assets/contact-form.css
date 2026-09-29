@@ -1,0 +1,17 @@
+/* Replaces the Ninja Forms contact form; matches its previous look. */
+.q-contact-form{max-width:750px;margin:0 auto 25px;text-align:left;font-family:Poppins,Arial,Helvetica,sans-serif;color:inherit}
+.q-contact-form .q-form-required-note{margin:0 0 10px;font-size:16px}
+.q-contact-form .q-req{color:#d96b00}
+.q-contact-form .q-field{margin-bottom:25px}
+.q-contact-form label{display:block;margin:0 0 10px;font-size:18px;font-weight:700;line-height:20px}
+.q-contact-form input,.q-contact-form textarea{display:block;box-sizing:border-box;width:100%;margin:0;padding:12px;border:1px solid #c4c4c4;border-radius:0;background:#f7f7f7;color:#272626;font:400 16px/1.4 Poppins,Arial,Helvetica,sans-serif}
+.q-contact-form input{height:50px}
+.q-contact-form textarea{height:200px;resize:vertical}
+.q-contact-form input:focus,.q-contact-form textarea:focus{outline:2px solid #d96b00;outline-offset:-1px;background:#fff}
+.q-contact-form .q-botcheck{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+.q-contact-form button{display:inline-block;padding:8px 20px;border:0;border-radius:30px;background:#d96b00;color:#fff;font:400 16px/1.2 Poppins,Arial,Helvetica,sans-serif;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:opacity .15s}
+.q-contact-form button:hover{opacity:.85}
+.q-contact-form button:disabled{opacity:.6;cursor:wait}
+.q-form-status{display:none;margin-top:20px;padding:12px 16px;font-size:16px;color:#272626}
+.q-form-status.is-success{display:block;background:#e7f4ea;border-left:4px solid #2e7d32}
+.q-form-status.is-error{display:block;background:#fdecea;border-left:4px solid #c62828}
